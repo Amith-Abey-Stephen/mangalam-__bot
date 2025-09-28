@@ -1,4 +1,3 @@
-
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -13,6 +12,11 @@ import notionService from './services/notionService.js';
 import { errorHandler, notFound } from './middleware/errorMiddleware.js';
 
 const app = express();
+
+// Health check root route
+app.get('/', (req, res) => {
+  res.send('College Chatbot backend is running!');
+});
 const PORT = process.env.PORT || 3001;
 
 // Security middleware
