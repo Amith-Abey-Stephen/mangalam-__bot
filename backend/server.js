@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 3001;
 app.use(helmet());
 app.use(cors({
   origin: [
-    'https://mangalam-bot.vercel.app',
+    'https://mangalam-bot.vercel.app/',
     'http://localhost:5173'
   ],
   credentials: true
