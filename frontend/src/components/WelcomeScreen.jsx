@@ -5,33 +5,27 @@ const WelcomeScreen = ({ onSampleQuestion }) => {
   const sampleQuestions = [
     {
       icon: <GraduationCap className="w-5 h-5" />,
-      question: "What are the admission requirements?",
-      category: "Admissions"
-    },
-    {
-      icon: <BookOpen className="w-5 h-5" />,
-      question: "Tell me about the Computer Science program",
-      category: "Academics"
+      question: "Who is the principal?",
+      query: "Who is the principal of Mangalam College of Engineering?",
+      category: "General"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
-      question: "What facilities are available on campus?",
-      category: "Campus Life"
+      question: "Where is the College Location?",
+      query: "Where is Mangalam College of Engineering located?",
+      category: "General"
     },
     {
-      icon: <DollarSign className="w-5 h-5" />,
-      question: "What financial aid options are available?",
-      category: "Financial Aid"
-    },
-    {
-      icon: <Users className="w-5 h-5" />,
-      question: "What student organizations can I join?",
+      icon: <BookOpen className="w-5 h-5" />,
+      question: "Clubs and Cells",
+      query: "Clubs and Cells",
       category: "Student Life"
     },
     {
-      icon: <Calendar className="w-5 h-5" />,
-      question: "When is the application deadline?",
-      category: "Deadlines"
+      icon: <Users className="w-5 h-5" />,
+      question: "College Departments",
+      query: "departments",
+      category: "Academics"
     }
   ];
 
@@ -57,7 +51,7 @@ const WelcomeScreen = ({ onSampleQuestion }) => {
           {sampleQuestions.map((item, index) => (
             <button
               key={index}
-              onClick={() => onSampleQuestion(item.question)}
+              onClick={() => onSampleQuestion(item.query)}
               className="group p-4 text-left bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
             >
               <div className="flex items-start space-x-3">
