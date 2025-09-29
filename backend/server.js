@@ -15,13 +15,7 @@ const app = express();
 
 // Security middleware
 app.use(helmet());
-app.use(cors({
-  origin: [
-    'https://mangalam-bot.vercel.app/',
-    'http://localhost:5173'
-  ],
-  credentials: true
-}));
+app.use(cors());
 
 // Health check root route
 app.get('/', (req, res) => {
