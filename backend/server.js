@@ -17,7 +17,7 @@ app.set('trust proxy', 1);
 
 // Security middleware
 app.use(helmet());
-app.use(cors());
+app.use();
 
 // Health check root route
 app.get('/', (req, res) => {
