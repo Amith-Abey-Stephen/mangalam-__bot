@@ -1,17 +1,20 @@
+
+
 [
   {
     "id": "overview",
     "title": "College Overview",
-    "content": "Mangalam College of Engineering was established in 2002, situated in the ettumanoor in Kottayam offering undergraduate programs in Civil, Mechanical, Electrical & Electronics, Electronics & Communication, Computer Science & Engineering, Chemical Engineering, and AI & ML, along with postgraduate degrees (M.Tech) and management degrees (MBA, MCA, Ph.D.) . The institution is AICTE-approved, affiliated to Mahatma Gandhi University, rated NAAC “A” grade with 3.24 CGPA, and NBA-accredited for its Civil, CSE, ECE, and Mechanical programs. Each department has a vison and mission and it clearly depicted on the course and program outcome of the course. The institution is clearly depicted with an idea of student centric and learning oriented activities. The core values of the institution includes inspire, Imbibe and Innovate. The management and staffs are very much truthful in creating such an idea and environment in the students.",
-    "url": "https://mangalam.ac.in/",
-    "lastModified": "2025-09-29T00:00:00.000Z"
+    "content": "Mangalam College of Engineering, established in 2002 in Ettumanoor, Kottayam, is a premier institution approved by AICTE, affiliated with Mahatma Gandhi University, and accredited by NAAC (A grade, 3.24 CGPA) and NBA for Civil, CSE, ECE, and Mechanical programs. The college embodies the values of 'Inspire, Imbibe, and Innovate' and is committed to student-centric learning, research, and social responsibility."
   },
   {
-    "id": "vision-mission",
-    "title": "Vision and Mission",
-    "content": "The vision is the institution is to emerge as a center of excellence in technical education and research, creating employable and committed professionals. The mission of the institution is to Inspire the learners to be globally competent engineers through innovative teaching and learning methods and imbibe a sense of social responsibility and creative inquiry in them that leads to higher learning and research.",
-    "url": "https://mangalam.ac.in/about",
-    "lastModified": "2025-09-29T00:00:00.000Z"
+    "id": "vision",
+    "title": "Vision",
+    "content": "To emerge as a centre of excellence in technical education and research, creating employable and committed professionals."
+  },
+  {
+    "id": "mission",
+    "title": "Mission",
+    "content": "To inspire learners to be globally competent engineers through innovative teaching and learning methods, and to imbibe in them a sense of social responsibility and creative inquiry leading to higher learning and research."
   },
   {
     "id": "principal",
@@ -20,6 +23,14 @@
     "url": "https://mangalam.ac.in/faculty",
     "lastModified": "2025-09-29T00:00:00.000Z"
   },
+  {
+  "id": "vice-principals",
+  "title": "Vice Principals of the Institution",
+  "content": "We are proud to have two dedicated Vice Principals leading different spheres of our academic community:\n\n1. **Dr. Arun Jose – Vice Principal, Student Affairs**\nDr. Arun Jose, who completed his PhD at the National Institute of Technology, Tiruchirappalli, oversees student affairs at our institution. His areas of expertise include Supply Chain Management, Traceability Systems, and Sustainable Production. With a commitment to enhancing student life and well-being, Dr. Arun Jose ensures that the holistic needs of students are met.\n\n2. **Dr. Neema George – Vice Principal, Academics**\nDr. Neema George leads our academic programs and is known for her distinguished track record in academics and various student-centered activities. Her leadership plays a key role in shaping the institution’s academic culture and fostering an environment conducive to learning and innovation.\n\nBoth Vice Principals work collaboratively to ensure that our students receive a well-rounded educational experience, balancing academic excellence and student development.",
+  "url": "https://mangalam.ac.in/faculty",
+  "lastModified": "2025-09-29T00:00:00.000Z"
+},
+
   {
     "id": "vice-principal-student-affairs",
     "title": "Vice Principal Student Affairs",
@@ -35,80 +46,68 @@
     "lastModified": "2025-09-29T00:00:00.000Z"
   },
   {
-    "id": "departments",
-    "title": "Departments and Programs",
-    "content": "Mangalam College of Engineering offers undergraduate and postgraduate programs in Civil, Mechanical, Electrical & Electronics, Electronics & Communication, Computer Science & Engineering, Chemical Engineering, AI & ML, MBA, MCA, and Ph.D. Each department has dedicated faculty, labs, and research activities. Department heads and faculty details are available on the college website.",
-    "url": "https://mangalam.ac.in/departments",
-    "lastModified": "2025-09-29T00:00:00.000Z"
+    "id": "leadership",
+    "title": "Leadership & Academic Structure",
+    "content": "Principal: Prof. Dr. Vinodh P. Vijayan (Ph.D. in Computer Science and Engineering, postdoc at University of Putra Malaysia, expertise in AI, Soft Computing, IoT, 4 patents, research supervisor at APJAKTU). Vice Principal (Student Affairs): Dr. Arun Jose (Ph.D. NIT Trichy, Supply Chain Management, Traceability Systems, Sustainable Production). Vice Principal (Academics): Dr. Neema George (Academic quality, inclusivity, research-oriented practices)."
   },
   {
-    "id": "student-activities",
-    "title": "Student Activities and Clubs",
-    "content": "Active student bodies include IEEE, CSI, ICI, IETE, IEI, NCC, NSS units, which organize technical and social initiatives including ArtsFest, TechFest, Sports Day, Merit Day, induction programs, and more. The NCC unit was established under the 16 Kerala Battalion with training for around 160 cadets, complete with regular drills and leadership training. Clubs and innovation hubs include technical associations, entrepreneurship cells, IDEA Lab, social and cultural clubs, and the AI & ML-IoT Centre of Excellence.",
-    "url": "https://mangalam.ac.in/student-life",
-    "lastModified": "2025-09-29T00:00:00.000Z"
+    "id": "departments",
+    "title": "Academic Departments",
+    "content": "Mangalam offers undergraduate, postgraduate, and doctoral programs in Civil, Mechanical, Electrical & Electronics, Electronics & Communication (ECE), Computer Science & Engineering (CSE), Chemical Engineering, Artificial Intelligence & Machine Learning (AI & ML), and Management (MBA, MCA, Ph.D.). Each department is led by distinguished faculty and offers modern labs and research opportunities."
+  },
+  {
+    "id": "department-civil",
+    "title": "Civil Engineering Department",
+    "content": "Established in 2010, offers B.Tech and M.Tech (Structural Engineering & Construction Management). Led by Prof. Dr. D. Ramesh Kumar, focuses on fundamentals, design thinking, and industry collaboration."
+  },
+  {
+    "id": "department-mechanical",
+    "title": "Mechanical Engineering Department",
+    "content": "Started in 2002, B.Tech intake of 60, M.Tech in Industrial Engineering & Management, led by Prof. Dr. Pratheesh K. Advanced CAD/CAM labs, CNC machines, SolidWorks, NX CAM Express, focus on employability and innovation."
+  },
+  {
+    "id": "department-ece",
+    "title": "Electronics & Communication Engineering (ECE) Department",
+    "content": "Founded in 2002, over 420 UG and 36 PG students, led by Prof. Dr. Abraham C. G. Labs in VLSI, Embedded Systems, Communication, Digital IC Design, research-driven learning."
+  },
+  {
+    "id": "department-cse",
+    "title": "Computer Science & Engineering (CSE) Department",
+    "content": "Established in 2002, offers B.Tech (CSE, CSBS) and M.Tech (CSE). Headed by Dr. Simy Mary Kurian, 480 UG and 36 PG students, focus on computing excellence, research, and holistic skill development."
+  },
+  {
+    "id": "department-applications",
+    "title": "Department of Computer Applications",
+    "content": "Formed in 2023, offers BCA and MCA (60 seats each). Led by Ms. Divya S. B. (Ph.D. pursuing in Machine Learning). Focus on innovation, open discussions, hands-on projects, interdisciplinary learning, IoT and AI experiments, open-source contributions."
+  },
+  {
+    "id": "faculty-highlights",
+    "title": "Faculty Highlights - Computer Applications",
+    "content": "Dr. Nagarjuna E. (Professor, PhD, M.Tech, 17 years), Mr. Eldhose K. Paul (Associate Professor, M.Tech, 18 years), Ms. Ashwani Vijayachandran (Assistant Professor, M.Tech, PhD pursuing, 4 years), Ms. Banu Sumayya S (Assistant Professor, M.Tech, 5 years), Ms. Greeshmamol P. Kurian (Assistant Professor, MCA, 2 years), Ms. Kukkumol Thomas (Associate Professor, M.Tech, PhD pursuing, 17 years), Ms. Anju John (Assistant Professor, MCA, 1.5 years), Ms. Sree Lekshmi (Assistant Professor, MCA, 1.5 years)."
+  },
+  {
+    "id": "other-departments",
+    "title": "Other Departments",
+    "content": "Management Studies (MBA, MCA) led by Dr. Jacob Thomas. Electrical & Electronics Engineering, Chemical Engineering, and AI & ML departments focus on research, innovation labs, and entrepreneurship."
+  },
+  {
+    "id": "student-life",
+    "title": "Student Life & Activities",
+    "content": "IEEE, CSI, ICI, IETE, IEI, NCC, NSS units. Annual TechFest, ArtsFest, Sports Day, Merit Day, skill-building, induction, outreach. NCC trains 160 cadets. Clubs and innovation hubs include technical associations, entrepreneurship cells, AI & ML IoT Centre of Excellence, IDEA Lab, cultural clubs."
   },
   {
     "id": "social-service",
-    "title": "Social Service and Outreach",
-    "content": "Each department participates in structured social service programs—visits to local homes, schools, and ashrams, environmental awareness drives, and sustainable attitude development initiatives for students through the official Social Service wing. These activities link academic curriculum with community service via student-led field visits and awareness programs.",
-    "url": "https://mangalam.ac.in/social-service",
-    "lastModified": "2025-09-29T00:00:00.000Z"
+    "title": "Social Service & Outreach",
+    "content": "Departments participate in school and ashram visits, environmental awareness drives, sustainable development, connecting classroom learning with real-world empathy and service."
   },
   {
-    "id": "college-name",
-    "title": "College Name",
-    "content": "Mangalam College of Engineering",
-    "url": "https://mangalam.ac.in/",
-    "lastModified": "2025-09-28T00:00:00.000Z"
+    "id": "innovation-hubs",
+    "title": "Clubs, Cells & Innovation Hubs",
+    "content": "Technical Clubs: IEEE, CSI, ACM, domain-specific associations. Entrepreneurship Cells, Technology Business Incubator, AI & ML IoT Centre of Excellence, IDEA Lab, Innovation Hub, cultural and social clubs. Hackathons, workshops, collaborative projects."
   },
   {
-    "id": "college-location",
-    "title": "College Location",
-    "content": "Mangalam College of Engineering is located in Ettumanoor, Kottayam, Kerala, India.",
-    "url": "https://mangalam.ac.in/contact",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "college-principal",
-    "title": "College Principal",
-    "content": "The principal of Mangalam College of Engineering is Dr. John Mathew.",
-    "url": "https://mangalam.ac.in/faculty",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "sample-1",
-    "title": "Computer Science Program",
-    "content": "The Computer Science program offers undergraduate and graduate degrees with focus on software engineering, artificial intelligence, and data science. Prerequisites include calculus and physics. The program duration is 4 years for undergraduate and 2 years for graduate studies.",
-    "url": "https://example.edu/cs-program",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "sample-2",
-    "title": "Admissions Requirements",
-    "content": "Undergraduate admissions require a high school diploma with minimum 3.0 GPA, SAT score of 1200+ or ACT score of 26+, and two letters of recommendation. Graduate admissions require a bachelor's degree, GRE scores, and statement of purpose.",
-    "url": "https://example.edu/admissions",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "sample-3",
-    "title": "Campus Facilities",
-    "content": "Our campus features modern dormitories, a state-of-the-art library with 24/7 access, multiple dining halls, recreational centers, and computer labs. The campus spans 200 acres with wireless internet throughout.",
-    "url": "https://example.edu/facilities",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "sample-4",
-    "title": "Financial Aid",
-    "content": "Financial aid options include need-based grants, merit scholarships, work-study programs, and federal loans. Students must complete FAFSA by March 1st. Average aid package is $15,000 per year.",
-    "url": "https://example.edu/financial-aid",
-    "lastModified": "2025-09-28T00:00:00.000Z"
-  },
-  {
-    "id": "sample-5",
-    "title": "Student Life",
-    "content": "Campus life includes over 100 student organizations, intramural sports, cultural events, and volunteer opportunities. Housing is guaranteed for first-year students. Career services provide internship and job placement assistance.",
-    "url": "https://example.edu/student-life",
-    "lastModified": "2025-09-28T00:00:00.000Z"
+    "id": "philosophy",
+    "title": "Core Philosophy",
+    "content": "Mangalam College of Engineering believes learning is a continuous process of inspiration, curiosity, and contribution. 'Education is not just about learning facts — it’s about creating minds that think, build, and lead.'"
   }
 ]

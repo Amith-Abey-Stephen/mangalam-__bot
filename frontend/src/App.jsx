@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useTTS } from './components/TTSContext';
 import Header from './components/Header';
 import ChatMessage from './components/ChatMessage';
 import ChatInput from './components/ChatInput';
@@ -7,6 +8,7 @@ import TypingIndicator from './components/TypingIndicator';
 import { chatService } from './services/chatService';
 
 function App() {
+  const { enabled, speakText, lang } = useTTS();
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -34,7 +36,6 @@ function App() {
 
     try {
       const response = await chatService.sendQuery(message);
-      
       const botMessage = {
         id: Date.now() + 1,
         text: response.answer,
@@ -43,12 +44,14 @@ function App() {
         confidence: response.confidence,
         sources: response.sources
       };
-
       setMessages(prev => [...prev, botMessage]);
+      // TTS: Speak bot response if enabled
+      if (enabled && botMessage.text) {
+        speakText(botMessage.text, lang);
+      }
     } catch (err) {
       console.error('Chat error:', err);
       setError('Sorry, I encountered an error. Please try again.');
-      
       const errorMessage = {
         id: Date.now() + 1,
         text: 'I apologize, but I encountered an error while processing your question. Please try again in a moment.',
@@ -56,8 +59,11 @@ function App() {
         timestamp: new Date(),
         isError: true
       };
-
       setMessages(prev => [...prev, errorMessage]);
+      // TTS: Speak error if enabled
+      if (enabled) {
+        speakText(errorMessage.text, lang);
+      }
     } finally {
       setIsLoading(false);
     }
