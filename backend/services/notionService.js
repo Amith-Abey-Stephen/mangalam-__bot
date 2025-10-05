@@ -1,8 +1,10 @@
+import dotenv from 'dotenv';
+import path from 'path';
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 import axios from 'axios';
 import cron from 'node-cron';
 import vectorService from './vectorService.js';
 import fs from 'fs';
-import path from 'path';
 
 class NotionService {
   constructor() {

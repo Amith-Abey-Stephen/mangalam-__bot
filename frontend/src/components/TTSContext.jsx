@@ -17,6 +17,9 @@ export const TTSProvider = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem('tts-enabled', JSON.stringify(enabled));
+    if (!enabled && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
   }, [enabled]);
 
   useEffect(() => {

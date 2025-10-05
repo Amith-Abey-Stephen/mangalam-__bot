@@ -72,6 +72,9 @@ function App() {
   const clearChat = () => {
     setMessages([]);
     setError(null);
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
   };
 
   return (
