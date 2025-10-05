@@ -17,7 +17,11 @@ app.set('trust proxy', 1);
 
 // Security middleware
 app.use(helmet());
-app.use();
+app.use(cors({
+  origin: ['https://mangalam-bot.vercel.app', 'http://localhost:5173', 'http://localhost:5174'], // add all allowed origins
+  credentials: true
+}));
+
 
 // Health check root route
 app.get('/', (req, res) => {
